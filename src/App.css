@@ -1,0 +1,260 @@
+body {
+  background-image: url(https://cdn.glitch.me/5539ba06-aed1-42cf-9a61-66f8d214a4d8%2F57187.jpg?v=1637438018737);
+  width: 100%;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(172, 167, 169);
+  color: white;
+  text-decoration: none;
+  flex-wrap: wrap;
+    }
+
+
+     .link {
+      padding: 10px 40px;
+      text-decoration: none;
+      color: white;
+      text-transform: uppercase;
+      font-family: 'Roboto', sans-serif;
+    }
+    .logo {
+      margin-right: auto;
+  }
+    
+              
+.link:hover {
+  color: #F1D4D4;
+text-transform: uppercase;
+cursor: pointer;
+               }
+
+.partTwo {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  padding: auto;
+  margin: 5px;
+  font-family: 'Roboto', sans-serif;
+  flex-wrap: wrap;
+  border-radius: 2px;
+  border: #9e9e9e 2px solid;
+}
+
+.partOne {
+  display: flex;
+  flex-direction: column;
+  width: 1;
+  padding: auto;
+  margin: 5px;
+  font-family: 'Roboto', sans-serif;
+  flex-wrap: wrap;
+  border-radius: 2px;
+  border: #9e9e9e 2px solid;
+}
+.part {
+  display: flex;
+  justify-content: flex-end;
+  width: 70%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1;
+}
+.partBtn {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  flex-wrap: wrap;
+ 
+}
+.line {
+  padding: 0%;
+  margin: 0%;
+}
+button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  background-color: rgb(172, 167, 169);
+  color: white;
+  cursor: pointer;
+  flex: 1;
+  margin: 2px;
+  text-decoration: none;
+  border-radius: 10px;
+  border: none;
+  padding: 2px;
+  }
+  .button:hover {background-color: #384259;}
+        
+.button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #9e9e9e;
+    color: white;
+    cursor: pointer;
+    flex: 1;
+    text-decoration: none;
+     border-radius: 10px; 
+    padding: 2px;
+}
+  h1, h2 {
+    color: rgb(157, 14, 112);
+    font-style: italic;
+  }
+  h3 {
+    color: rgb(181, 67, 145);
+    }
+  h4 {
+      color: rgb(136, 20, 99);
+    }
+  .heading {
+    color: #384259;
+            font-size: 25px;
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            flex-wrap: wrap;
+        }
+        .heading:hover {
+            color: #790C5A;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+    .parent {
+      display: flex;
+      flex-wrap: wrap;
+             }
+             .ped {
+              margin-left: 20px;
+            color: #790C5A;
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            font-size: 15px;
+            font-family: 'Roboto', sans-serif;
+                          text-decoration: none;
+                          align-self:center;
+                          flex-wrap: wrap;
+                 }
+    .card {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      width: 400px;
+      flex: 1;
+      align-items: center;
+      border-radius: 2px;
+      border: #9e9e9e 2px solid;
+     
+    }
+ 
+.blanco {
+  color: rgb(181, 67, 145);
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  margin: 20px;
+}
+.blanco:hover {
+  background-color: #384259;  
+  color: #F1D4D4;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.contact {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 500px;
+} 
+
+.menu {
+  
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+     margin: 0;
+     padding: 5px;
+     
+}
+.menu:hover {
+  background-color: #384259; 
+  color: #F1D4D4;
+  text-transform: uppercase;
+  cursor: pointer;
+}             
+.btmSH {
+  color: blue;
+  background: none;
+  text-transform: lowercase;
+  border: none;
+}
+.questionBox {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+}
+.box {
+background-color: white;
+color: black;
+text-transform: lowercase;
+border: #790C5A 2px solid;
+border-radius: 50px;
+max-width: fit-content;
+}
+.box:hover{
+  background-color: #790C5A ;
+color: white;
+}
+.one {
+display: flex;
+flex: 1;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+  background-image: url(https://cdn.glitch.me/5539ba06-aed1-42cf-9a61-66f8d214a4d8%2F57187-1.jpg?v=1637438047924);
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+	padding: 10px;
+	margin-bottom: 10px;
+  line-height: 1.2;
+
+  border-radius: 2px;
+  border: #9e9e9e 2px solid;
+}
+
+label {
+	display: flex;
+	margin: 10px;
+	padding: 5px;
+
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-height: min-content;
+  background-color: #9e9e9e;
+  color: #790C5A;
+}
+.icon {
+  margin: 5px;
+  padding: 5px;
+}
