@@ -1,5 +1,4 @@
-
-export const City =[
+export const cityName =[
 
     {id:1,
         name:"Costa Blanca",

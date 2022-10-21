@@ -9,8 +9,10 @@ if (state.succeeded) {
 }
 return (
     <div className='form' >
-    <form className='form' onSubmit={handleSubmit}>
-           <h3>Pregunta al anunciante</h3>
+    <form className='form' onSubmit={handleSubmit}
+     action="https://formspree.io/f/xqknqyqr"
+     method="POST">
+    <h3>Pregunta al anunciante</h3>
     <label htmlFor="email">
       Email Address
     </label>
@@ -47,10 +49,4 @@ return (
   </div>
 );
 }
-
-
-
-
-
-
 export default Forma

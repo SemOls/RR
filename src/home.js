@@ -1,19 +1,19 @@
 import { useState } from 'react';
-import { City } from './City';
+import { cityName } from './Cityn';
 import left from "./icons8.png";
 import right from "./icons81.png"
 import './App.css';
 
 function Slide () {
 const [city, setCity] = useState(0);
-const {id ,  name, foto, subhead,  text, textmas}= City[city];
+const {id , name, foto, subhead,  text, textmas}= cityName[city];
 
 
 const preCity =()=> {
     setCity((city=>{
         city --;
         if (city<0){
-            city=City.length-1}
+            city=cityName.length-1}
             return city;
     }))
 }
@@ -21,7 +21,7 @@ const preCity =()=> {
 const nextCity =()=> {
     setCity((city=>{
         city ++;
-        if (city>City.length-1){
+        if (city>cityName.length-1){
             city=0;
         }
         return city;
@@ -47,8 +47,9 @@ const nextCity =()=> {
             <h3>
            {text} 
            </h3>
-           <h3> {textmas }
-                      </h3>
+           <h3>
+             {textmas }
+           </h3>
             
             </div>
             </div>
