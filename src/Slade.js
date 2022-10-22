@@ -13,7 +13,7 @@ function SlideFlat ({flat}) {
         <div>
  <div className='container'> 
         {flat.map((element=>{
-            const { id, name, zona, tipo, state, space, precio,  room, lavatory, terraza,  balcon,  floor,  comOne,   dopCom, location,  constr, text,  foto,  showMore} = element;
+            const { id, name, zona, state, space, precio,  room, lavatory, terraza,  balcon,  floor,  comOne,   dopCom, location,  constr, text,  foto,  showMore} = element;
             return(
                 <div className='card' key={id}>
                     <div className='line'>   <h3> {id} - {name}</h3></div>
